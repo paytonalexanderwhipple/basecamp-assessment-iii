@@ -1,0 +1,65 @@
+/* resets */
+body {
+  margin: 0px;
+
+}
+/* resets */
+.text img {
+  display: block;
+  height: 50px;
+  width: 50px;
+  margin: 18px auto 18px auto;
+}
+.text p {
+  margin: 0px;
+  text-align: center;
+  text-decoration: none;
+}
+.text {
+  margin: 0px;
+  border-left: 5px solid #000185;
+  border-right: 5px solid #000185;
+}
+.navBar ul{
+  list-style-type: none;
+  background-color: #669DFF;
+  border-top: 5px solid #000185;
+  border-left: 5px solid #000185;
+  border-right: 5px solid #000185;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+.navBar li{
+  float: right;
+  padding: 5px 10px 5px 10px;
+  color: #132649;
+}
+.active {
+  border-left: solid #0002E1;
+  background-color: #90A6CE;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#map {
+  background-image: url('./images/map.jpg');
+  height: 75px;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  border-top: 5px solid #000185;
+  border-bottom: 5px solid #000185;
+}
+#map > p {
+  line-height: 75px;
+  margin: 0px;
+  font-size: 50px;
+  font-family: Timesnewroman;
+}
+.Footer{
+  background-color: #669DFF;
+  height: 23px;
+  border: 5px solid #000185;
+}
